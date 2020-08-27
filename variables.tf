@@ -11,7 +11,7 @@ variable "subnet_name" {
 }
 
 variable "vnet_address_space" {
-    type = string
+    type = list(string)
 }
 
 variable "subnet_address_space" {
