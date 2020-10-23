@@ -1,5 +1,5 @@
 module "resources" {
-    source = "git::https://github.com/shankar5885/module.git?ref=master"
+    source = "git::https://github.com/itsajayraj1989/module.git?ref=master"
     rg_name = var.rg_name
     subnet_name = var.subnet_name
     vnet_name = var.vnet_name
